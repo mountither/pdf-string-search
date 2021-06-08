@@ -32,7 +32,7 @@ namespace pdf_text_find
                     break;
             }
 
-            string[] fileEntries = Directory.GetFiles(dirLoc);
+            string[] fileEntries = Directory.GetFiles(String.Format(@"{0}",dirLoc));
 
             foreach (string fileName in fileEntries)
             {
