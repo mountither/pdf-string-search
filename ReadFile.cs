@@ -37,7 +37,7 @@ namespace pdf_text_find
             foreach (string fileName in fileEntries)
             {
 
-                if (File.Exists(fileName)) ;
+                if (File.Exists(fileName))
                 {
 
                     PdfReader pdfReader = new PdfReader(fileName);
